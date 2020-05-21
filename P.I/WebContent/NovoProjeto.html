@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Projeto</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	
+    	 <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Pró-Saúde</a>
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html">Home<span class="sr-only"></span></a></li>
+                      <li><a href="#">Como Funciona</a></li>
+                      <li><a href="FaleConosco.html">Fale Conosco</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div>
+                      <button type="submit" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>  
+                        Pesquisar</button>
+                    </form>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+        </header>
+
+        <div class="container" style="margin: 100px 0px 300px;">
+            <h1 class="display text-center" style="color: RoyalBlue;"><img src="img/01.png"><br>Cadastro de Projetos</h1><hr>
+            
+            <br>
+            <form>
+                <div class="form-group col-md-5 col-sm-8">
+                  <label for="exampleFormControlInput1">Título do Projeto:</label>
+                  <input type="text" class="form-control" id="titulo">
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="exampleFormControlInput1">Tema do projeto:</label>
+                    <input type="text" class="form-control" id="tema">
+                </div>
+                <div class="form-group col-md-5">
+                    <label>Decrição:</label>
+                    <textarea class="form-control" id="descricao" rows="3"></textarea>
+                </div>
+                <div class="form-group col-md-3">
+                    <label>Categoria:</label>
+                    <select multiple class="form-control" id="categoria">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2 col-sm-4">
+                  <label>Prioridade:</label>
+                  <select class="form-control" id="prioridade">
+                    <option value="baixo">Baixo</option>
+                    <option value="medio">Média</option>
+                    <option value="alto">Alta</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-12 text-center"><hr>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </div>
+               </form>
+        </div>
+        
+
+        <footer style="background-color: LightSteelBlue; height: 130px; padding:20px 50px 0px;">
+          <h5 class="text-center">Desenvolvido 2020</h5>
+          <a href="index.html">Home</a><br>
+          <a href="FaleConosco.html">Fale Conosco</a><br>
+          <a href="index.html">Home</a>
+        </footer>
+    </body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min (2).js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+</html>
