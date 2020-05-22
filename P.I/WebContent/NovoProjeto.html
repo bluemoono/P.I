@@ -45,11 +45,22 @@
               </nav>
         </header>
 
-        <div class="container" style="margin: 100px 0px 300px;">
-            <h1 class="display text-center" style="color: RoyalBlue;"><img src="img/01.png"><br>Cadastro de Projetos</h1><hr>
+        <div class="container" style="margin: 100px 10px 300px;">
+          <h1 class="display text-center" style="color: RoyalBlue;"><img src="img/01.png"><br>Cadastro de Projetos</h1><hr>
             
             <br>
             <form>
+              <!--Foto de perfiu-->
+              <!--<div class="form-group col-md-12 col-sm-8 text-center"> 
+                <a>
+                <img src="..." alt="..." class="img-circle">
+                  <label for="exampleInputFile">Fotos de capa</label>
+                  <input type="file" id="foto_capa">
+                  <p class="help-block">Adicione arquivos.</p>
+                </a>
+              </div>-->
+
+              <!--Cadastro-->
                 <div class="form-group col-md-5 col-sm-8">
                   <label for="exampleFormControlInput1">Título do Projeto:</label>
                   <input type="text" class="form-control" id="titulo">
@@ -79,6 +90,11 @@
                     <option value="medio">Média</option>
                     <option value="alto">Alta</option>
                   </select>
+                </div>
+                <div class="form-group col-md-5">
+                  <label for="exampleInputFile">Arquivos</label>
+                  <input type="file" id="arquivos">
+                  <p class="help-block">Adicione arquivos.</p>
                 </div>
                 <div class="form-group col-md-12 text-center"><hr>
                     <button type="submit" class="btn btn-primary">Cadastrar</button>
